@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Money-transfer/static/css/main.94d57e04.chunk.css",
+    "main.js": "/Money-transfer/static/js/main.ac576d64.chunk.js",
+    "main.js.map": "/Money-transfer/static/js/main.ac576d64.chunk.js.map",
+    "runtime-main.js": "/Money-transfer/static/js/runtime-main.1819ed8a.js",
+    "runtime-main.js.map": "/Money-transfer/static/js/runtime-main.1819ed8a.js.map",
+    "static/js/2.5af7a278.chunk.js": "/Money-transfer/static/js/2.5af7a278.chunk.js",
+    "static/js/2.5af7a278.chunk.js.map": "/Money-transfer/static/js/2.5af7a278.chunk.js.map",
+    "index.html": "/Money-transfer/index.html",
+    "precache-manifest.a2416fbfa2e1515124f0a9f027031f9a.js": "/Money-transfer/precache-manifest.a2416fbfa2e1515124f0a9f027031f9a.js",
+    "service-worker.js": "/Money-transfer/service-worker.js",
+    "static/css/main.94d57e04.chunk.css.map": "/Money-transfer/static/css/main.94d57e04.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1819ed8a.js",
+    "static/js/2.5af7a278.chunk.js",
+    "static/css/main.94d57e04.chunk.css",
+    "static/js/main.ac576d64.chunk.js"
+  ]
+}
