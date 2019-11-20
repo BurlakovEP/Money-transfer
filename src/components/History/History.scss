@@ -1,0 +1,46 @@
+.table {
+  width: 750px;
+  border: 1px solid #000;
+  border-collapse: collapse;
+  text-align: center;
+
+  &__cell {
+    border: 1px solid #000;
+
+    &_header {
+      font-weight: 700;
+    }
+  }
+
+  &__number {
+    margin: 0 2px;
+  }
+
+  &__button {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: "Segoe UI";
+    font-weight: 500;
+    color: #000;
+
+    background-color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 3px 5px;
+    margin: 3px;
+    width: 90px;
+    height: 25px;
+    cursor: pointer;
+    outline: none;
+
+    &:hover {
+      background-color: #ebebeb;
+    }
+
+    &:active {
+      background-color: #dadada;
+    }
+  }
+}

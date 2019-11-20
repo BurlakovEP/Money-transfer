@@ -1,0 +1,82 @@
+.transfer {
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__form {
+    display: flex;
+    justify-content: space-between;
+
+    &_cards {
+      width: 750px;
+      margin-bottom: 70px;
+    }
+
+    &_transfer {
+      width: 280px;
+      margin-bottom: 50px;
+    }
+  }
+
+  &__message {
+    width: 100%;
+    text-align: center;
+    color: red;
+    margin-top: -30px;
+  }
+
+  &__amount {
+    width: 120px;
+    border-radius: 2px;
+    font-size: 20px;
+    border: 1px solid #000;
+    text-align: left;
+    padding: 5px;
+    outline: none;
+    text-transform: uppercase;
+    outline: none;
+
+    &_focus {
+      border-color: blue;
+    }
+
+    &_valid {
+      border: 1px solid green;
+    }
+
+    &_invalid {
+      border: 1px solid red;
+    }
+  }
+
+  &__button {
+    width: 120px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    font-size: 18px;
+
+    &_disabled {
+      pointer-events: none;
+      border: 1px solid red;
+    }
+
+    &:hover {
+      background-color: #ebebeb;
+    }
+
+    &:active {
+      background-color: #dadada;
+    }
+  }
+}
